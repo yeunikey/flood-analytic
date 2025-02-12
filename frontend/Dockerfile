@@ -17,7 +17,7 @@ RUN npm install -g vite
 COPY . .
 
 # Открываем порт для фронта
-EXPOSE 3000
+EXPOSE 7001
 
 # Запускаем приложение
 CMD ["npm", "run", "dev"]
