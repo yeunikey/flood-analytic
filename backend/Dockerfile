@@ -12,7 +12,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Открываем порт для API
-EXPOSE 6379
+EXPOSE 7002
 
 # Запускаем приложение
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "6379", "--reload"]
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "7002", "--reload"]
